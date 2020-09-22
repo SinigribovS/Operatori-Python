@@ -9,7 +9,7 @@ if (n<10000):
     c=n//10%10
     d=n%10
     print("suma cifrelor=",a+b+c+d)
-    print("rasturnatul numarului este ",d,c,b,a,sep="")
+    print("rasturnatul numarului este ", str(n)[::-1])
 else:
     print("""Eroare: numarul natural introdus e mai mare ca 10000. 
 Introduceti un numar mai mic ca 10000 si repetati executia programului.""") 
