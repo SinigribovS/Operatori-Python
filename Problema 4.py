@@ -1,0 +1,6 @@
+n=int(input("Numarul natural:"))
+print(n, " m = ", n * 100, " cm")
+print(n, " kg = ", n * 10 ** 6, " mg")
+print(n, " ani = ", n * 12, " luni")
+print(n, " ani = ", n * 52, " saptamani")
+print(n, " ani = ", n * 365, " zile")
